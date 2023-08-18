@@ -1,0 +1,131 @@
+.SinglePost{
+    flex: 9;
+    /* color: red; */
+}
+
+.singlePostWrapper{
+    padding: 20px;
+    padding-right: 0;
+}
+
+.singlePostImg{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    object-fit: cover;
+
+}
+
+.singlePostTitle{
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    justify-content: space-between ;
+    margin-top: 10px;
+    position: relative;
+}
+.singlePostTitleName{
+    text-align: center;
+    justify-self: center;
+    margin: 10px;
+    font-size: 28px;
+    font-family: "Lora", serif ;
+    
+}
+
+.singlePostTitleNameInput{
+    margin: 10px;
+    font-size: 28px;
+    font-family: "Lora", serif ;
+    border: none ;
+    text-align: center;
+    
+}
+.singlePostTitleNameInput:focus{
+    outline: none;
+    
+}
+
+/* .singlePostEdit{
+    margin-left: 200px;
+} */
+
+.singlePostEditIcon{
+    cursor: pointer;  
+    margin-right: 10px;
+    
+}
+.singlePostEditIcon:first-child{
+    color: green ;
+}
+.singlePostEditIcon:last-child{
+    color: rgb(224, 23, 23);
+}
+
+.singlePostInfo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.singlePostAuthor{
+    padding-left: 20px;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    color: rgb(125, 87, 28);
+}
+.singlePostDate{
+    padding-right: 20px;
+    font-size: 15px;
+    font-style:oblique;
+    color: rgb(125, 87, 28);
+}
+
+.singlePostDetails{
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: 'Lora', serif;
+    color: rgb(103, 89, 72);
+}
+
+.singlePostDetails::first-letter{
+    padding-left: 20px;
+    font-size:25px;
+    font-weight: 500px;
+    color: black; 
+}
+.singlePostDetailsInput{
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: 'Lora', serif ;
+    color: rgb(103, 89, 72);
+    border: none;
+    width: 90% ;
+    line-height: 25px;
+    align-items: center ;
+    justify-content: center ;
+    height: 200px;
+}
+.singlePostDetailsInput:focus{
+    outline: none ;
+}
+
+.singlePostDetailsInput::first-letter{
+    padding-left: 20px;
+    font-size:25px;
+    font-weight: 500px;
+    color: black; 
+}
+
+
+.UpdatePost{
+    padding: 5px;
+    width: 100px;
+    background-color: teal;
+    color: white;
+    border: none;
+    /* width: 20px; */
+    margin-top: 10px;
+    align-items: end ;
+    cursor: pointer;
+}

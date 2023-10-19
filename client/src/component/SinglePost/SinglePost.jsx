@@ -33,7 +33,7 @@ export default function SinglePost() {
     getPost(); 
   },[path] );
 
-  const PF = "http://localhost:8000/images/"      // public folder
+  const PF = "https://ananda-blog.onrender.com/images/"      // public folder
 
   const handleDelete = async () => {
     try{

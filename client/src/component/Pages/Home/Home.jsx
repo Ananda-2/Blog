@@ -31,7 +31,7 @@ export default function Home(){
 
             <div className='homePage'>
                 <Posts posts={posts} />
-                <Slidebar/>
+                {/* <Slidebar/> */}
             </div>
             
         </div>

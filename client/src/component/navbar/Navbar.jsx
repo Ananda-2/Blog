@@ -8,7 +8,7 @@ import { Context } from "../../context/Context";
 export default function Navbar(){
     
     const  {user,dispatch}  = useContext(Context) ;
-    const PF = "http://localhost:8000/images/"
+    const PF = "https://ananda-blog.onrender.com/images/"
 
     const handleLogout = () =>{
         dispatch({type: "LOGOUT"})
@@ -34,8 +34,6 @@ export default function Navbar(){
 
                     <li className="topCenterListItem" onClick={handleLogout}><Link to="/login" style={{textDecoration:"none" , color:"inherit"} }>{user && "LOGOUT"}</Link></li> 
                     
-                    
-            
                 </ul>
                 
             </div>
@@ -51,7 +49,7 @@ export default function Navbar(){
 
                 }
 
-               <i class ="topRightSearchIcon fa-solid fa-magnifying-glass"></i>
+               <i class ="topRightSearchIcon fa-solid -famagnifying-glass"></i>
             </div>
 
         </div>

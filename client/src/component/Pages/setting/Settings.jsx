@@ -11,7 +11,7 @@ export default function Settings() {
     const [password , setPassword] = useState("");
     const [file , setFile] = useState("");
     const [isUpdated , setIsUpdated] = useState(false);
-    const PF = "http://localhost:8000/images/"
+    const PF = "https://ananda-blog.onrender.com/images/"
 
 const handleUpdate = async (e) => {
     e.preventDefault() ;

@@ -19,7 +19,6 @@ export default function Register() {
     setError(false) ;
 
     try{
-
       const res = await axios.post("/auth/register" , {
         username , 
         email,
@@ -32,9 +31,6 @@ export default function Register() {
       setError(true) ;
       console.log(err);
     }
-
-
-  
 
   }
 

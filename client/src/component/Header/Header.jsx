@@ -13,7 +13,7 @@ export default function Header (){
             </div>
 
         
-            <img className='headerImg' src = "https://images.pexels.com/photos/1167355/pexels-photo-1167355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"/>
+            <img className='headerImg' src = "https://hips.hearstapps.com/hmg-prod/images/nature-captions-index-1672888070.jpg?crop=1xw:0.84375xh;center,top"/>
 
         </div>
     )

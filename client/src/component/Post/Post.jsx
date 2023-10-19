@@ -2,7 +2,7 @@ import "./Post.css"
 import { Link } from "react-router-dom"
 export default function Post({post}){
 
-    const PF = "http://localhost:8000/images/"      // public folder 
+    const PF = "https://ananda-blog.onrender.com/images/"      // public folder 
 
     console.log(post)
     
